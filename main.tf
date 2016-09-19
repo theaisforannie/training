@@ -29,7 +29,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "web" {
-  count         = "1"
+  count         = "5000"
   ami           = "ami-db24d8b6"
   instance_type = "t2.micro"
 
